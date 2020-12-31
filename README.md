@@ -15,11 +15,20 @@ Redux state management practice and documentation
 
 ## 2. State Management
 
-One popular way to manage state across many JavaScript libraries (such as React and Redux) is using objects. 
+✔ One popular way to manage state across many JavaScript libraries (such as React and Redux) is using objects. 
 
 ## 3. Redux
 
 ⚛️ Redux is a popular JavaScript library for managing the state of your application. 
+
+Before we dive into Redux, I want to mention two crucial patterns that Redux follows (and I would highly recommend you to always keep this information in the back of your mind while writing your Redux applications!):
+
+▶ One pattern that Redux follows is called “Single Source Of Truth”, which means that we have only one place (called Store) where we store the only state for the whole application.
+
+#### In other words, one app — one store — one state.
+
+▶ Another pattern that Redux follows is called “immutability”. And you will find this term quite often in other frameworks and libraries as well.
+In short, immutability means that we don’t change the state object and its properties directly. Instead, we make a new object, recalculate the new application state and update it with our newly created object. We want to leave our old state object intact.
 
 ## 4. When not to use Redux?
 * Tight Budget
@@ -36,7 +45,7 @@ From the bases of this library, we would obtain Redux, which is probably the mos
 The different alternatives we would have for our generic project, would be:
 * Redux
 * Mobx for Vuejs
-* COntext API for React
+* Context API for React
 
 
 
