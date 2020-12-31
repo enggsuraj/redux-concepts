@@ -54,6 +54,13 @@ In short, immutability means that we don’t change the state object and its pro
 
 - Actions are plain JavaScript objects that describe WHAT happened, but don’t describe HOW the app state changes.
 - We just dispatch (send) them to our store instance whenever we want to update the state of our application.
+- For Example ```{ type: ADD_NOTE, title: 'Some Title', content: 'This is an action object' } ```
+
+## REDUCERS
+
+- Reducers are pure functions that define HOW the app state changes.
+- The reducer function takes two parameters: the previous app state, the action being dispatched and returns the new app state.
+   ```(previousState, action) => newState ```
 
 ## History
 
