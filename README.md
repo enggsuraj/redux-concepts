@@ -36,6 +36,25 @@ In short, immutability means that we don’t change the state object and its pro
 * Simple UI.data flow
 * Static data
 
+## 5. Three Building Blocks 
+
+* Actions
+* Reducers
+* Store
+
+![building blocks](https://user-images.githubusercontent.com/6918020/103405196-4a545200-4b7c-11eb-9679-6af9fc668e9a.png)
+
+## STORE 
+
+-  The store hold the state of the application.
+-  The store is actually an object, not a class.
+-  We create only one store per application.
+
+## ACTIONS
+
+- Actions are plain JavaScript objects that describe WHAT happened, but don’t describe HOW the app state changes.
+- We just dispatch (send) them to our store instance whenever we want to update the state of our application.
+
 ## History
 
 Some years ago, FLUX had become the standard to manage the states with Reactjs. This way of working combined with its structure of Actions, Dispatchers, Reducers and so on, created a standard which would be applied to the subsequent libraries for lots of applications.
@@ -46,14 +65,3 @@ The different alternatives we would have for our generic project, would be:
 * Redux
 * Mobx for Vuejs
 * Context API for React
-
-
-
-
-
-
-
-
-
-
-
