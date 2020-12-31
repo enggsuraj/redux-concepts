@@ -64,11 +64,11 @@ In short, immutability means that we don’t change the state object and its pro
 
 ## History
 
-Some years ago, FLUX had become the standard to manage the states with Reactjs. This way of working combined with its structure of Actions, Dispatchers, Reducers and so on, created a standard which would be applied to the subsequent libraries for lots of applications.
+👍 Some years ago, FLUX had become the standard to manage the states with Reactjs. This way of working combined with its structure of Actions, Dispatchers, Reducers and so on, created a standard which would be applied to the subsequent libraries for lots of applications.
 
-From the bases of this library, we would obtain Redux, which is probably the most well-known library. However, nowadays, and depending on the type of project we are creating and the framework/library we are using, we will find different options.
+✌ From the bases of this library, we would obtain Redux, which is probably the most well-known library. However, nowadays, and depending on the type of project we are creating and the framework/library we are using, we will find different options.
 
-The different alternatives we would have for our generic project, would be:
+▶ The different alternatives we would have for our generic project, would be:
 * Redux
 * Mobx for Vuejs
 * Context API for React
