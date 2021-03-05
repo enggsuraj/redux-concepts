@@ -1,0 +1,20 @@
+.todoItem {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
+}
+
+.todoItem--done {
+  position: relative;
+  white-space: nowrap;
+}
+
+.todoItem--done:after {
+  border-top: 3px solid #000;
+  position: absolute;
+  content: "";
+  right: 0;
+  top: 55%;
+  left: 0;
+}
